@@ -51,10 +51,48 @@ h1, h2 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Fonts */
 .mono {
   font-family: 'Roboto Mono', monospace;
 }
 
 .copy {
   font-family: 'Georgia', serif;
+}
+
+/* Header */
+.site-header {
+	background-color: #03151c;
+	height: 76px;
+}
+
+.logo {
+	display:inline-block;
+	float: left;
+}
+
+.header-nav {
+	display:inline-block;
+	float: right;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 25px 20px;
+}
+
+.nav-links span {
+	color: #14e9b6;
+}
+
+.nav-link {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #14e9b6;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	color: white;
 }
