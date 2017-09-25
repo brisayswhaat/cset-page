@@ -81,6 +81,10 @@ h1, h2 {
 	padding: 25px 20px;
 }
 
+.nav-links span {
+	color: #14e9b6;
+}
+
 .nav-link {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 14px;
