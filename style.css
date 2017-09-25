@@ -129,6 +129,18 @@ h1, h2 {
 	width: 90%;
 	margin: 0 auto;
 	padding: 80px 0 150px;
+	display: flex;
+	flex-direction: column;
+}
+
+.the-abs .content-header,
+.the-abs .mono,
+.the-abs .copy {
+	display: flex;
+}
+
+.flex-row {
+	display: flex;
 }
 
 .content-header {
@@ -150,4 +162,20 @@ h1, h2 {
 	font-size: 16px;
 	line-height: 1.2;
 	color: #021d2c;
+}
+
+.the-abs .content-header {
+	margin: 15px 0;
+}
+
+.the-abs .mono {
+	margin: 15px 0;
+}
+
+.flex-row .copy {
+	margin: 15px 30px;
+}
+
+.flex-row .copy:first-of-type {
+	margin-left: 0;
 }
