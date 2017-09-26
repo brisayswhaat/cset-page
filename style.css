@@ -152,7 +152,7 @@ h1, h2 {
 
 .mono {
   font-family: 'Roboto Mono', monospace;
-	font-weight: 18px;
+	font-size: 18px;
 	color: #021d2c;
 	line-height: 1.5;
 }
@@ -194,7 +194,8 @@ h1, h2 {
 	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 	display: inline-block;
 	width: 30%;
-	padding: 95px 40px 100px 60px;
+	padding: 95px 40px 200px 60px;
+	height: 100%;
 }
 
 .sidebar p.mono {
@@ -209,4 +210,40 @@ h1, h2 {
 
 .objectives {
 	margin-left: 15px;
+}
+
+/* Schedule */
+.schedule {
+	display: inline-block;
+	width: 50%;
+	padding: 90px 70px 80px;
+	height: 100%;
+	vertical-align: top;
+}
+
+.schedule .small-header {
+	margin: 40px 0 15px;
+}
+
+.small-header {
+	font-size: 21px;
+}
+
+.schedule-block {
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.schedule-block .mono {
+	text-decoration: none;
+}
+
+.schedule-block span {
+	margin: 0 15px;
+}
+
+.schedule-block .mono:hover {
+	text-decoration: underline;
+	color: #14e9b6;
 }
